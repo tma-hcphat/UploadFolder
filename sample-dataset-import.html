@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sample dataset for GRDM Import Dataset test</title>
+  <!--
+    Host this file on a public web server that returns Content-Type: text/html
+    (e.g. GitHub Pages). The GRDM celery worker must be able to reach it.
+    Each distribution[].contentUrl must be a publicly downloadable file.
+  -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "name": "Sample dataset for download history test",
+    "distribution": [
+      {
+        "@type": "DataDownload",
+        "contentUrl": "https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <p>Sample dataset page for GRDM "Import Dataset".</p>
+</body>
+</html>
